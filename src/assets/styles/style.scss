@@ -1,0 +1,45 @@
+@import '~pretty-checkbox/src/pretty-checkbox.scss';
+@import '~@mdi/font/css/materialdesignicons.css';
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Century Gothic;
+}
+
+.container {
+	max-width: 1100px;
+	margin: 0 auto;
+}
+
+
+// CHECK ICON FIXES
+.pretty.p-icon .state .icon{
+	top:0px !important;
+}
+
+.pretty{
+	margin-right:0px;
+.state {
+
+	label {
+		&:before {
+			border-color: white !important;
+			top:0px !important;
+		}
+		&:after{
+			top:0px !important;
+		}
+	}
+}
+}
+
+.simplebar-track.simplebar-vertical{
+	bottom:10px;
+}
+
+simplebar-scrollbar{
+	.simplebar-visible{
+		height:20px;
+	}
+}
